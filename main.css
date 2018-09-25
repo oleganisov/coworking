@@ -7,6 +7,11 @@
   width: 100%;
   
 }
+
+.header-container{
+  display: inline-block;
+  
+}
 .social__item {
   opacity: 0.75;
   display: inline-block;
