@@ -53,21 +53,27 @@
   color: #fff;
 }
 .social{
-  height: 48px;
+  height: 51px;
+  width: 168px;
 }
 .social__title{
   height: 14px;
-  font-family: "GothamPro-Bold";
-  font-size: 14px;
-  color: #fff;  
 }
+ .social__elem{
+  width: 168px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+} 
 .social__item {
   opacity: 0.75;
   display: inline-block;
-  width: 21px;
-  height: 21px;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 100%;
+  position: relative;
 }
-
 .social__item-link {
   display: inline-block;
   text-indent: 100%;
@@ -75,28 +81,24 @@
   height: 100%;
   overflow: hidden;
   white-space: nowrap;
+  background-position: center;
 }
-
 .social__item-link--vk {
   background-image: url(../img/vk.png);
   background-repeat: no-repeat;
 }
-
 .social__item-link--fb {
   background-image: url(../img/fb.png);
   background-repeat: no-repeat;
 }
-
 .social__item-link--g {
   background-image: url(../img/google.png);
   background-repeat: no-repeat;
 }
-
 .social__item-link--tw {
   background-image: url(../img/twitter.png);
   background-repeat: no-repeat;
 }
-
 .social__item-link--mail {
   background-image: url(../img/mail.png);
   background-repeat: no-repeat;
