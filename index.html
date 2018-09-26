@@ -6,25 +6,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Coworking</title>
-  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/normalize.css">
   <link rel="stylesheet" href="./css/fonts.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
   <div class="wrapper">
     <!--header-->
-    <header>
+    <header class="header">
       <div class="container">
         <div class=logo>
-          <img src="./img/logo.png" alt="Logo" class="logo__pic">
+          <img class="logo__pic" src="./img/logo.png" alt="Логотип">
         </div>
         <div class="contactcs">
-          <a href="88000039210" class="contacts__phone">8(800)00-392-10</a>
+          <a href="tel:88000039210" class="contacts__phone">8(800)00-392-10</a>
           <div class="contacts__timing">График работы</div>
         </div>
       </div>
       <div class="banner">
-        <img src="./img/banner.jpg" alt="Баннер">
+        <img class="banner__pic" src="./img/banner.jpg" alt="Баннер">
       </div>
     </header>
     <!--main page-->
@@ -33,28 +34,27 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="#" class="menu__link" alt="На главную">
-                <!-- <div class="menu__icon menu__icon-main"></div> -->
-                <img src="./img/main-icon.png" alt="Главная">
+              <a href="#" class="menu__link">
+                <img class="menu__icon" src="./img/main-icon.png" alt="Главная">
                 <div class="menu__text">Главная</div>
-             </a>
+              </a>
             </li>
             <li class="menu__item">
               <a href="#" class="menu__link">
-                <img src="./img/feed-icon.png" alt="Отзывы">
+                <img class="menu__icon" src="./img/feed-icon.png" alt="Отзывы">
                 <div class="menu__text">Отзывы</div>
               </a>
             </li>
             <li class="menu__item">
               <a href="#" class="menu__link">
-                <img src="./img/wallet-icon.png" alt="Тарифы">
+                <img class="menu__icon" src="./img/wallet-icon.png" alt="Тарифы">
                 <div class="menu__text">Тарифы</div>
               </a>
             </li>
           </ul>
         </nav>
-      </div>
-      <div class="page__container">
+      </aside>
+      <div class="main-content">
         <div class="cowork">
           <div class="cowork__features">
             <h2>Особенности</h2>
@@ -151,40 +151,37 @@
             </div>
           </div>
         </div>
-
-        <div class="cowork__pagination">
-          <div class="cowork__pagination-label">Страница 1 из 7</div>
-          <div class="cowork__pagination-elem">
-            <a href="#" class="cowork__pagination-prev-next">
-              <</a> <ul class="cowork__pagination-pages">
-                <li class="cowork__pagination-item">
-                  <a href="#" class="cowork__pagination-link">1</a>
+        <div class="pagination">
+          <div class="pagination__label">Страница 1 из 7</div>
+          <div class="pagination__elem">
+            <a href="#" class="pagination__prev-next">
+              <</a> <ul class="pagination__pages">
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">1</a>
                 </li>
-                <li class="cowork__pagination-item">
-                  <a href="#" class="cowork__pagination-link">2</a>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">2</a>
                 </li>
-                <li class="cowork__pagination-item">
-                  <a href="#" class="cowork__pagination-link">3</a>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">3</a>
                 </li>
-                <li class="cowork__pagination-item">
-                  <a href="#" class="cowork__pagination-link">4</a>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">4</a>
                 </li>
-                <li class="cowork__pagination-item">
-                  <a href="#" class="cowork__pagination-link">5</a>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">5</a>
                 </li>
-                <li class="cowork__pagination-item">
-                  <a href="#" class="cowork__pagination-link">6</a>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">6</a>
                 </li>
-                <li class="cowork__pagination-item">
-                  <a href="#" class="cowork__pagination-link">7</a>
+                <li class="pagination__item">
+                  <a href="#" class="pagination__link">7</a>
                 </li>
                 </ul>
-                <a href="#" class="cowork__pagination-prev-next">></a>
+                <a href="#" class="pagination__prev-next">></a>
           </div>
-
         </div>
       </div>
-
     </div>
     <!--footer-->
     <footer class="footer">
@@ -201,21 +198,21 @@
           <div class="social">
             <div class="social__title  block-text">Наши социальные сети</div>
             <ul class="social__list">
-                <li class="social__item">
-                  <a href="#" class="social__item-link social__item-link--vk" alt="В контакте">В контакте</a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__item-link social__item-link--fb" alt="FaceBook">FaceBook</a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__item-link social__item-link--g" alt="Google">Google</a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__item-link social__item-link--tw" alt="Twitter">Twitter</a>
-                </li>
-                <li class="social__item">
-                  <a href="#" class="social__item-link social__item-link--mail" alt="E-mail">E-mail</a>
-                </li>
+              <li class="social__item">
+                <a href="#" class="social__item-link social__item-link--vk" alt="В контакте">В контакте</a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__item-link social__item-link--fb" alt="FaceBook">FaceBook</a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__item-link social__item-link--g" alt="Google">Google</a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__item-link social__item-link--tw" alt="Twitter">Twitter</a>
+              </li>
+              <li class="social__item">
+                <a href="#" class="social__item-link social__item-link--mail" alt="E-mail">E-mail</a>
+              </li>
             </ul>
           </div>
 
@@ -223,6 +220,7 @@
       </div>
     </footer>
   </div>
+
 </body>
 
 </html>
