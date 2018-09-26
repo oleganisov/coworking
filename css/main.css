@@ -15,7 +15,7 @@
   flex-wrap: nowrap;
   justify-content: space-between;
 }
-
+/* header */
 .logo {
   margin-left: 19px;
   margin-top: 13px;
@@ -37,12 +37,17 @@
   font-size: 14px;
   color: rgba(236, 30, 121, 0.7);
 }
-
-.maincontent {
+/* header end*/
+/* page */
+.page {
   height: 100%;
   width: 100%;
-}
-
+  display: flex;
+  }
+.page__sidebar{
+  width: 400px;
+  }
+/* page end*/
 /* footer */
 
 .footer-left {
@@ -85,7 +90,6 @@
   height: 20px;
   background: #fff;
   border-radius: 100%;
-  position: relative;
 }
 
 .social__item-link {
@@ -123,4 +127,4 @@
   background-repeat: no-repeat;
 }
 
-/* footer */
+/* footer end*/
