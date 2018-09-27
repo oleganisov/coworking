@@ -4,6 +4,32 @@
 
 /* adjustment */
 
+li {
+  list-style: none;
+}
+
+/* adjustment end*/
+
+.text_block {
+  font-family: GothamPro-Bold;
+  font-size: 14px;
+  color: #fff;
+}
+
+.title_h2 {
+  font-family: GothamPro-Bold;
+  font-size: 49px;
+  font-weight: bold;
+  color: #000;
+}
+
+.title_h4 {
+  font-family: GothamPro-Bold;
+  font-size: 11px;
+  font-weight: bold;
+  color: #000;
+}
+
 .wrapper {
   width: 1100px;
   margin: auto;
@@ -41,22 +67,19 @@
   font-size: 14px;
   color: rgba(236, 30, 121, 0.7);
 }
-.menu__link{
+
+.menu__link {
   display: flex;
   width: 200px;
   margin-bottom: 38px;
 }
-.menu__icon{
+
+.menu__icon {
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
   margin-right: 20px;
 }
-.menu__text{
-
-}
-
-
 
 /* header end*/
 
@@ -70,6 +93,21 @@
 
 .sidebar {
   width: 400px;
+}
+
+.features__list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+.features__pic {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background-color: #27273e;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* page end*/
@@ -88,12 +126,6 @@
 
 .footer-center {
   margin-top: 14px;
-}
-
-.block-text {
-  font-family: GothamPro-Bold;
-  font-size: 14px;
-  color: #fff;
 }
 
 .social {
@@ -119,7 +151,7 @@
   border-radius: 100%;
 }
 
-.social__item-link {
+.social__link {
   display: inline-block;
   text-indent: 100%;
   width: 100%;
@@ -129,29 +161,11 @@
   background-position: center;
 }
 
-.social__item-link--vk {
-  background-image: url(../img/vk.png);
+.social__icon {
+  width: 20px;
+  height: 20px;
   background-repeat: no-repeat;
-}
-
-.social__item-link--fb {
-  background-image: url(../img/fb.png);
-  background-repeat: no-repeat;
-}
-
-.social__item-link--g {
-  background-image: url(../img/google.png);
-  background-repeat: no-repeat;
-}
-
-.social__item-link--tw {
-  background-image: url(../img/twitter.png);
-  background-repeat: no-repeat;
-}
-
-.social__item-link--mail {
-  background-image: url(../img/mail.png);
-  background-repeat: no-repeat;
+  margin-right: 20px;
 }
 
 /* footer end*/
