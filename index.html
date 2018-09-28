@@ -16,18 +16,21 @@
     <!--header-->
     <header class="header">
       <div class="container">
-        <div class=logo>
-          <img class="logo__pic" src="./img/logo.png" alt="Логотип">
+        <div class=header-left>
+          <img class="logo-pic" src="./img/logo.png" alt="Логотип">
         </div>
-        <div class="contactcs">
-          <a href="tel:88000039210" class="contacts__phone">8(800)00-392-10</a>
-          <div class="contacts__timing">График работы</div>
+        <div class="header-right">
+          <div class=contacts>
+            <!--нужна ли обертка-->
+            <a href="tel:88000039210" class="contacts__phone">8(800)00-392-10</a>
+            <div class="contacts__timing">График работы</div>
+          </div>
         </div>
-      </div>
-      <div class="banner">
-        <img class="banner__pic" src="./img/banner.jpg" alt="Баннер">
       </div>
     </header>
+    <div class="banner">
+        <img class="banner__pic" src="./img/banner.jpg" alt="Баннер">
+    </div>
     <!--main page-->
     <div class="page">
       <aside class="sidebar">
@@ -35,19 +38,19 @@
           <ul class="menu__list">
             <li class="menu__item">
               <a href="./about.html" class="menu__link">
-                <div class="menu__icon" style="background-image: url(./img/main-icon.png)"></div>
+                <img src="./img/main-icon.png" alt="Главная" class='menu__icon'>
                 <div class="menu__text">Главная</div>
               </a>
             </li>
             <li class="menu__item">
               <a href="./feeds.html" class="menu__link">
-                <div class="menu__icon" style="background-image: url(./img/feed-icon.png)"></div>
+                <img src="./img/feed-icon.png" alt="Отзывы" class='menu__icon'>
                 <div class="menu__text">Отзывы</div>
               </a>
             </li>
             <li class="menu__item">
               <a href="./prices.html" class="menu__link">
-                <div class="menu__icon" style="background-image: url(./img/wallet-icon.png)"></div>
+                <img src="./img/wallet-icon.png" alt="Тарифы" class='menu__icon'>
                 <div class="menu__text">Тарифы</div>
               </a>
             </li>
@@ -198,37 +201,35 @@
     <!--footer-->
     <footer class="footer">
       <div class=container>
-        <div class="footer-left text_block">
+        <div class="footer-left text-block">
           <div>Сделано с любовью и старанием</div>
           <div>на курсе «HTML + CSS» в LoftSchool.</div>
           <div>Автор работы: Анисов Олег</div>
         </div>
         <div class="footer-center">
-          <img src="./img/logo.png" alt="Logo" class="logo__pic">
+          <img src="./img/logo.png" alt="Логотип" class="logo-pic">
         </div>
         <div class="footer-right">
           <div class="social">
-            <div class="social__title  text_block">Наши социальные сети</div>
+            <div class="social__title  text-block">Наши социальные сети</div>
             <ul class="social__list">
               <li class="social__item">
-                <a href="vk.com" class="social__link social__icon" style="background-image: url(./img/vk.png)">В
-                  контакте</a>
+                <a href="vk.com" class="social__link" style="background-image: url(./img/vk.png)"></a>
               </li>
               <li class="social__item">
-                <a href="fb.com" class="social__link social__icon" style="background-image: url(./img/fb.png)">FaceBook</a>
+                <a href="fb.com" class="social__link" style="background-image: url(./img/fb.png)"></a>
               </li>
               <li class="social__item">
-                <a href="#" class="social__link social__icon" style="background-image: url(./img/google.png)">Google</a>
+                <a href="#" class="social__link" style="background-image: url(./img/google.png)"></a>
               </li>
               <li class="social__item">
-                <a href="twitter.com" class="social__link social__icon" style="background-image: url(./img/twitter.png)">Twitter</a>
+                <a href="twitter.com" class="social__link" style="background-image: url(./img/twitter.png)"></a>
               </li>
               <li class="social__item">
-                <a href="#" class="social__link social__icon" style="background-image: url(./img/mail.png)">E-mail</a>
+                <a href="#" class="social__link" style="background-image: url(./img/mail.png)"></a>
               </li>
             </ul>
           </div>
-
         </div>
       </div>
     </footer>

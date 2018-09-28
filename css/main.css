@@ -10,7 +10,7 @@ li {
 
 /* adjustment end*/
 
-.text_block {
+.text-block {
   font-family: GothamPro-Bold;
   font-size: 14px;
   color: #fff;
@@ -44,18 +44,23 @@ li {
   justify-content: space-between;
 }
 
+.banner__pic{
+  width: 100%;
+}
 /* header */
 
-.logo {
+.header-left {
   margin-left: 19px;
   margin-top: 13px;
 }
-
-.contactcs {
+.header-right {
   margin-right: 21px;
   margin-top: 13px;
 }
-
+.logo-pic{
+  height: 51px;
+  width: 99px;
+}
 .contacts__phone {
   font-family: "GothamPro-Bold";
   font-size: 21px;
@@ -148,24 +153,16 @@ li {
   width: 20px;
   height: 20px;
   background: #fff;
-  border-radius: 100%;
+  border-radius: 50%;
+  
 }
 
 .social__link {
   display: inline-block;
-  text-indent: 100%;
   width: 100%;
   height: 100%;
-  overflow: hidden;
-  white-space: nowrap;
   background-position: center;
-}
-
-.social__icon {
-  width: 20px;
-  height: 20px;
   background-repeat: no-repeat;
-  margin-right: 20px;
 }
 
 /* footer end*/
