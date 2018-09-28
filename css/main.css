@@ -1,6 +1,6 @@
-div {
+/* div {
   border: 1px solid red;
-}
+} */
 
 /* adjustment */
 
@@ -44,24 +44,28 @@ li {
   justify-content: space-between;
 }
 
-.banner__pic{
+.banner__pic {
   width: 100%;
   height: 359px;
 }
+
 /* header */
 
 .header-left {
   margin-left: 19px;
   margin-top: 13px;
 }
+
 .header-right {
   margin-right: 21px;
   margin-top: 13px;
 }
-.logo-pic{
+
+.logo-pic {
   height: 51px;
   width: 99px;
 }
+
 .contacts__phone {
   font-family: "GothamPro-Bold";
   font-size: 21px;
@@ -86,7 +90,13 @@ li {
   background-repeat: no-repeat;
   margin-right: 20px;
 }
-
+.menu__text {
+  font-family: GothamPro-Bold;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000;
+}
 /* header end*/
 
 /* page */
@@ -106,10 +116,6 @@ li {
   /* justify-content: space-between; */
   /* align-content: center; */
 }
-/* .features__desc {
-  justify-self: auto;
-
-}  */
 
 .features__pic {
   width: 68px;
@@ -119,18 +125,45 @@ li {
   background-repeat: no-repeat;
   background-position: center;
 }
-.custom-list li:before{
+
+.features__header {
+  text-align: center;
+}
+.features__text {
+  text-align: center;
+}
+
+
+.custom-list li:before {
   content: "\2022";
   color: #ec1e79;
 }
-
 .pagination{
-  display:inline-block;
+  height: 50px;
+  display: flex;
+  justify-content: center;
 }
-.pagination__list{
-  display:inline-block;
+.pagination__label {
+  display: inline-block;
+  line-height: 50px;
 }
 
+.pagination__elem {
+  display: inline-block;
+}
+
+.pagination__list {
+  display: inline-block;
+}
+
+.pagination__item {
+  display: inline-block;
+  text-decoration: none;
+}
+.pagination__link{
+  text-decoration: none;
+  color: #000;
+}
 
 /* page end*/
 
@@ -171,7 +204,6 @@ li {
   height: 20px;
   background: #fff;
   border-radius: 50%;
-  
 }
 
 .social__link {
