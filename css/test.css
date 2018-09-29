@@ -1,0 +1,11 @@
+.news__block {
+  display: flex;
+}
+
+.news__pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 62px;
+}
