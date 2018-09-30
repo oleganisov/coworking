@@ -88,9 +88,11 @@ body {
   font-weight: bold;
   text-transform: uppercase;
 }
+
 .menu__link--main {
   color: #000;
 }
+
 .menu__link--main::before {
   display: inline-block;
   content: "";
@@ -176,19 +178,21 @@ body {
 .features__text {
   text-align: center;
 }
-.features__list{
-   list-style: none;
 
+.features__list {
+  list-style: none;
 }
-.features__item{
+
+.features__item {
   margin-bottom: 10px;
   /* font-size:  */
 }
-.features__item::before{
+
+.features__item::before {
   display: inline-block;
-  content:"\2022";
+  content: "\2022";
   font-size: 20px;
-  color:#cc3366;
+  color: #cc3366;
   margin-right: 15px;
   vertical-align: middle;
 }
@@ -261,6 +265,7 @@ body {
   font-weight: bold;
   font-size: 14px;
 }
+
 /* footer */
 
 .footer__left {
