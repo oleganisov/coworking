@@ -98,8 +98,8 @@ body {
 
 .menu__link--main:before {
   display: inline-block;
-  /* text-align: center; */
   content: "";
+  vertical-align:middle;
   width: 21px;
   height: 21px;
   margin-right: 17px;
@@ -110,6 +110,7 @@ body {
 .menu__link--feed:before {
   display: inline-block;
   content: "";
+  vertical-align:middle;
   width: 21px;
   height: 21px;
   margin-right: 17px;
@@ -120,6 +121,7 @@ body {
 .menu__link--price:before {
   display: inline-block;
   content: "";
+  vertical-align:middle;
   width: 21px;
   height: 21px;
   margin-right: 17px;
@@ -137,7 +139,6 @@ body {
 
 .cowork__features {
   display: flex;
-  /* justify-content: center; */
   margin-bottom: 93px;
 }
 
@@ -199,6 +200,10 @@ body {
 
 .news_text {
   line-height: 18px;
+}
+.pagination{
+  text-align: center;
+  margin-bottom: 70px;
 }
 .pagination__label{
   display: inline-block;
