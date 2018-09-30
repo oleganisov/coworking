@@ -1,11 +1,19 @@
-.news__block {
-  display: flex;
+ @font-face {
+	font-family: 'GothamPro';
+	src: url(../fonts/GothamPro-Bold.woff)  format('woff');
+	font-weight: bold;
+  font-style: normal;
+} 
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff") format(woff);
+  src: url("../fonts/Roboto-Bold.woff2") format(woff2);
+  font-weight: bold;
+  font-style: normal;
 }
 
-.news__pic {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  margin-right: 20px;
-  margin-bottom: 62px;
+.news__header{
+  font-family: "GothamPro";
+  font-weight: bold;
+  font-style: normal;
 }

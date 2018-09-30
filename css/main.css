@@ -3,28 +3,8 @@
 } */
 
 body {
-  font-family: GothamPro, Helvetica, sans-serif;
+  font-family: Roboto, Helvetica, sans-serif;
   margin: 0;
-}
-
-/* font */
-
-.text-block {
-  font-family: GothamPro-Bold;
-  font-size: 14px;
-  color: #fff;
-}
-
-.title-h3-white {
-  font-family: GothamPro-Bold;
-  font-size: 21px;
-  color: #fff;
-}
-
-.title-h4-red {
-  font-family: "GothamPro-Bold";
-  font-size: 14px;
-  color: rgba(236, 30, 121, 0.7);
 }
 
 /* containers */
@@ -55,6 +35,20 @@ body {
   margin-top: 13px;
 }
 
+.contacts__timing {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(236, 30, 121, 0.7);
+}
+
+.contacts__phone {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 21px;
+  color: #fff;
+}
+
 .banner {
   margin-bottom: 57px;
 }
@@ -75,6 +69,7 @@ body {
 
 .menu {
   margin-bottom: 72px;
+  margin-left: 0px;
 }
 
 .menu__list {
@@ -85,21 +80,21 @@ body {
 
 .menu__link {
   display: inline-block;
-  /* vertical-align: middle; */
   width: 200px;
   margin-bottom: 38px;
   text-decoration: none;
-  font-family: GothamPro;
+  font-family: "Roboto";
   font-size: 12px;
   font-weight: bold;
-  color: #000;
   text-transform: uppercase;
 }
-
-.menu__link--main:before {
+.menu__link--main {
+  color: #000;
+}
+.menu__link--main::before {
   display: inline-block;
   content: "";
-  vertical-align:middle;
+  vertical-align: middle;
   width: 21px;
   height: 21px;
   margin-right: 17px;
@@ -107,10 +102,14 @@ body {
   background-repeat: no-repeat;
 }
 
-.menu__link--feed:before {
+.menu__link--feed {
+  color: #ec1e79;
+}
+
+.menu__link--feed::before {
   display: inline-block;
   content: "";
-  vertical-align:middle;
+  vertical-align: middle;
   width: 21px;
   height: 21px;
   margin-right: 17px;
@@ -118,10 +117,14 @@ body {
   background-repeat: no-repeat;
 }
 
-.menu__link--price:before {
+.menu__link--price {
+  color: #ec1e79;
+}
+
+.menu__link--price::before {
   display: inline-block;
   content: "";
-  vertical-align:middle;
+  vertical-align: middle;
   width: 21px;
   height: 21px;
   margin-right: 17px;
@@ -130,7 +133,7 @@ body {
 }
 
 .cowork__title {
-  font-family: GothamPro;
+  font-family: "Roboto";
   font-weight: bold;
   font-size: 49px;
   color: black;
@@ -161,15 +164,39 @@ body {
 .features__title {
   margin-bottom: 28px;
   text-align: center;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 12px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .features__text {
   text-align: center;
 }
+.features__list{
+   list-style: none;
+
+}
+.features__item{
+  margin-bottom: 10px;
+  /* font-size:  */
+}
+.features__item::before{
+  display: inline-block;
+  content:"\2022";
+  font-size: 20px;
+  color:#cc3366;
+  margin-right: 15px;
+  vertical-align: middle;
+}
 
 .news__title {
-  font-family: GothamPro;
+  font-family: "Roboto";
   font-weight: bold;
+  font-style: normal;
   font-size: 49px;
   color: black;
   margin-bottom: 64px;
@@ -186,7 +213,8 @@ body {
   margin-right: 20px;
   margin-bottom: 62px;
 }
-.news__desc{
+
+.news__desc {
   margin-right: 41px;
 }
 
@@ -201,35 +229,53 @@ body {
 .news_text {
   line-height: 18px;
 }
-.pagination{
+
+.pagination {
   text-align: center;
   margin-bottom: 70px;
 }
-.pagination__label{
+
+.pagination__label {
   display: inline-block;
   margin-right: 20px;
+  font-family: "Roboto";
+  color: #000;
+  font-weight: 300;
+  font-size: 14px;
 }
-.pagination__list{
+
+.pagination__list {
   display: inline-block;
   list-style: none;
 }
-.pagination__item{
+
+.pagination__item {
   display: inline-block;
   margin-right: 16px;
 }
-.pagination__link{
-  text-decoration: none;
-}
 
+.pagination__link {
+  text-decoration: none;
+  font-family: "Roboto";
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
 /* footer */
 
 .footer__left {
   margin-top: 14px;
   margin-left: 19px;
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
 }
 
 .loft-link {
   color: #fff;
+  font-weight: bold;
 }
 
 .footer__center {
@@ -239,6 +285,14 @@ body {
 .footer__right {
   margin-top: 14px;
   margin-right: 22px;
+}
+
+.social__title {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
 }
 
 .social__elem {
