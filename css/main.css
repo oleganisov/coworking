@@ -35,18 +35,24 @@ body {
   margin-top: 13px;
 }
 
+.contacts__phone {
+  margin-bottom: 6px;
+}
+
+.contacts__link {
+  font-family: "GothamPro";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+  color: #fff;
+}
+
 .contacts__timing {
+  text-align: right;
   font-family: "Roboto";
   font-weight: bold;
   font-size: 14px;
   color: rgba(236, 30, 121, 0.7);
-}
-
-.contacts__phone {
-  font-family: "Roboto";
-  font-weight: bold;
-  font-size: 21px;
-  color: #fff;
 }
 
 .banner {
@@ -83,9 +89,9 @@ body {
   width: 200px;
   margin-bottom: 38px;
   text-decoration: none;
-  font-family: "Roboto";
+  font-family: "GothamPro";
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
@@ -135,8 +141,9 @@ body {
 }
 
 .cowork__title {
-  font-family: "Roboto";
-  font-weight: bold;
+  font-family: "GothamPro";
+  font-weight: 700;
+  font-style: normal;
   font-size: 49px;
   color: black;
   margin-bottom: 64px;
@@ -166,10 +173,10 @@ body {
 .features__title {
   margin-bottom: 28px;
   text-align: center;
-  font-family: "Roboto";
-  font-weight: bold;
+  font-family: "GothamPro";
+  font-weight: 700;
   font-style: normal;
-  font-size: 12px;
+  font-size: 11px;
   color: black;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -177,6 +184,10 @@ body {
 
 .features__text {
   text-align: center;
+  font-family: "GothamPro";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
 }
 
 .features__list {
@@ -185,7 +196,10 @@ body {
 
 .features__item {
   margin-bottom: 10px;
-  /* font-size:  */
+  font-family: "GothamPro";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
 }
 
 .features__item::before {
@@ -198,8 +212,8 @@ body {
 }
 
 .news__title {
-  font-family: "Roboto";
-  font-weight: bold;
+  font-family: "GothamPro";
+  font-weight: 700;
   font-style: normal;
   font-size: 49px;
   color: black;
@@ -224,14 +238,26 @@ body {
 
 .news__date {
   margin-bottom: 10px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .news__header {
   margin-bottom: 20px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
 }
 
-.news_text {
-  line-height: 18px;
+.news__text {
+  line-height: 28px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .pagination {
@@ -243,9 +269,10 @@ body {
   display: inline-block;
   margin-right: 20px;
   font-family: "Roboto";
-  color: #000;
-  font-weight: 300;
+  font-weight: normal;
+  font-style: normal;
   font-size: 14px;
+  color: #000;
 }
 
 .pagination__list {
@@ -271,7 +298,7 @@ body {
 .footer__left {
   margin-top: 14px;
   margin-left: 19px;
-  font-family: "Roboto";
+  font-family: "GothamPro";
   font-weight: 300;
   font-style: normal;
   font-size: 14px;
@@ -293,8 +320,8 @@ body {
 }
 
 .social__title {
-  font-family: "Roboto";
-  font-weight: bold;
+  font-family: "GothamPro";
+  font-weight: 700;
   font-style: normal;
   font-size: 14px;
   color: #fff;
