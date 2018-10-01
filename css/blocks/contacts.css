@@ -1,0 +1,19 @@
+.contacts__phone {
+  margin-bottom: 6px;
+}
+
+.contacts__link {
+  font-family: "GothamPro";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+  color: #fff;
+}
+
+.contacts__timing {
+  text-align: right;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 14px;
+  color: rgba(236, 30, 121, 0.7);
+}
