@@ -15,14 +15,15 @@ body {
   flex-direction: column;
 }
 
-.wrapper__content {
+/* .wrapper__content {
   flex: 1;
-}
+} */
 
 .container {
   margin: 0 auto;
   width: 1066px;
   display: flex;
+  justify-content: space-between;
 }
 
 ul {

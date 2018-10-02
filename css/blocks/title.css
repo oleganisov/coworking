@@ -1,0 +1,23 @@
+.title-h2-black {
+  font-family: "GothamPro";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 49px;
+  color: black;
+}
+
+.title-h4-white {
+  font-family: "GothamPro";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21px;
+  color: #fff;
+}
+
+.title-h6-white {
+  font-family: "GothamPro";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+}

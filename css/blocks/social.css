@@ -1,0 +1,28 @@
+.social__elem {
+  display: inline-block;
+  height: 35px;
+}
+
+.social__list {
+  margin-top: 9px;
+  padding: 0;
+}
+
+.social__item {
+  display: inline-block;
+  opacity: 0.75;
+  height: 20px;
+  width: 20px;
+  margin-left: 0;
+  background-color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+}
+
+.social__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
