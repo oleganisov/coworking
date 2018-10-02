@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  height: 77px;
+  min-height: 77px;
   background-color: #27273e;
   overflow: hidden;
 }
@@ -17,4 +17,7 @@
 .footer__right {
   margin-top: 14px;
   margin-right: 22px;
+}
+.loft-link{
+  text-decoration: underline;
 }
