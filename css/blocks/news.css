@@ -1,0 +1,47 @@
+.news__elem {
+  display: inline-block;
+}
+
+.news__item {
+  display: inline-block;
+}
+
+.news__pic {
+  display: inline-block;
+}
+
+.news__desc {
+  display: inline-block;
+}
+
+.news__img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  margin-right: 20px;
+  margin-bottom: 62px;
+}
+
+.news__desc {
+  margin-right: 41px;
+}
+
+.news__date {
+  margin-bottom: 10px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.news__header {
+  margin-bottom: 20px;
+}
+
+.news__text {
+  line-height: 28px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: normal;
+  font-style: normal;
+}

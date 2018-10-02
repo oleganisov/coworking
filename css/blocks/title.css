@@ -21,3 +21,11 @@
   font-size: 14px;
   color: #fff;
 }
+
+.title__h5-black {
+  margin-bottom: 20px;
+  font-family: "Roboto";
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+}
