@@ -7,7 +7,7 @@
 } */
 
 .news__item {
-  display: inline-block;
+  display: flex;
   padding-bottom: 24px;
   margin-bottom: 31px;
   border-bottom: 1px solid #ccc;
@@ -17,6 +17,7 @@
 }
 
 .news__pic {
+  flex-shrink: 0;
   overflow: hidden;
   width: 160px;
   height: 160px;
