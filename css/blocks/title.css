@@ -23,9 +23,16 @@
 }
 
 .title__h5-black {
-  margin-bottom: 20px;
   font-family: "Roboto";
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
+}
+
+.title-h7-black {
+  font-family: "GothamPro";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 11px;
+  color: black;
 }

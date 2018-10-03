@@ -1,0 +1,53 @@
+.cowork__title{
+  margin-bottom: 64px;
+}
+.features {
+  margin-bottom: 93px;
+}
+
+.features__list{
+  display: flex;
+}
+.features__item{
+  text-align: center;
+}
+
+.features__pic {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  margin-bottom: 37px;
+  overflow: hidden;
+  background-color: #27273e;
+  display: inline-block;
+    position: relative;
+}
+.features__img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.features__title {
+  margin-bottom: 29px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.features__text {
+  text-align: center;
+}
+
+.details__item {
+  margin-bottom: 10px;
+}
+
+.details__item::before {
+  display: inline-block;
+  content: "\2022";
+  font-size: 20px;
+  color: #cc3366;
+  margin-right: 15px;
+  vertical-align: middle;
+}

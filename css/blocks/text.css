@@ -12,3 +12,11 @@
   font-size: 14px;
   color: rgba(236, 30, 121, 0.7);
 }
+
+.text-GothamPro {
+  margin-bottom: 10px;
+  font-family: "GothamPro";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+}

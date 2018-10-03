@@ -1,25 +1,31 @@
-.news__elem {
-  display: inline-block;
+.news__title{
+  margin-bottom: 75px;
 }
 
 .news__item {
-  display: inline-block;
+  /* display: flex; */
+  padding-bottom: 24px;
+  margin-bottom: 31px;
+  border-bottom: 1px solid #ccc;
 }
 
 .news__pic {
-  display: inline-block;
-}
-
-.news__desc {
-  display: inline-block;
-}
-
-.news__img {
   width: 160px;
   height: 160px;
   border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  text-align: center;
   margin-right: 20px;
-  margin-bottom: 62px;
+}
+
+.news__img {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
 }
 
 .news__desc {
@@ -40,8 +46,5 @@
 
 .news__text {
   line-height: 28px;
-  font-family: "Roboto";
   font-size: 18px;
-  font-weight: normal;
-  font-style: normal;
 }

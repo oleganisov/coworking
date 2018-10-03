@@ -7,7 +7,10 @@
 @import url('./blocks/contacts.css');
 @import url('./blocks/desc.css');
 @import url('./blocks/nav.css');
+@import url('./blocks/features.css');
+@import url('./blocks/news.css');
 @import url('./blocks/title.css');
 @import url('./blocks/text.css');
+@import url('./blocks/pagination.css');
 @import url('./blocks/footer.css');
 @import url('./blocks/social.css');
