@@ -6,6 +6,7 @@
   margin-bottom: 72px;
   margin-left: 0px;
 }
+
 .menu__link {
   display: inline-block;
   width: 200px;
@@ -28,6 +29,11 @@
   background-repeat: no-repeat;
 }
 
+.menu__link--main:hover::before,
+.menu__link--active::before {
+  background-image: url('../../img/main-icon-active.png');
+}
+
 .menu__link--feed::before {
   display: inline-block;
   content: "";
@@ -37,6 +43,11 @@
   margin-right: 17px;
   background-image: url('../../img/feed-icon.png');
   background-repeat: no-repeat;
+}
+
+.menu__link--feed:hover::before,
+.menu__link--active::before {
+  background-image: url('../../img/feed-icon-active.png');
 }
 
 .menu__link--price::before {
@@ -50,21 +61,12 @@
   background-repeat: no-repeat;
 }
 
-.menu__link--main:hover::before,.menu__link--active::before
-{
-  background-image: url('../../img/main-icon-active.png');
-}
-.menu__link--feed:hover::before,.menu__link--active::before
-{
-  content: "";
-  background-image: url('../../img/feed-icon-active.png');
-}
-.menu__link--price:hover::before,.menu__link--active::before
-{
-  content: "";
+.menu__link--price:hover::before,
+.menu__link--active::before {
   background-image: url('../../img/wallet-icon-active.png');
 }
 
-.menu__link:hover, .menu__link--active {
+.menu__link:hover,
+.menu__link--active {
   color: #000;
 }
