@@ -30,7 +30,7 @@
 }
 
 .menu__link--main:hover::before,
-.menu__link--active::before {
+.menu__link--main-active::before {
   background-image: url('../../img/main-icon-active.png');
 }
 
@@ -46,7 +46,7 @@
 }
 
 .menu__link--feed:hover::before,
-.menu__link--active::before {
+.menu__link--feed-active::before {
   background-image: url('../../img/feed-icon-active.png');
 }
 
@@ -62,11 +62,13 @@
 }
 
 .menu__link--price:hover::before,
-.menu__link--active::before {
+.menu__link--price-active::before {
   background-image: url('../../img/wallet-icon-active.png');
 }
 
-.menu__link:hover,
-.menu__link--active {
+.menu__link:hover, 
+.menu__link--main-active,
+.menu__link--feed-active,
+.menu__link--price-active{
   color: #000;
 }
