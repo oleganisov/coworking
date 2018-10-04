@@ -20,7 +20,7 @@
   width: 68px;
   height: 68px;
   border-radius: 50%;
-  margin-bottom: 37px;
+  margin-bottom: 36px;
   overflow: hidden;
   background-color: #27273e;
   display: inline-block;
@@ -43,6 +43,7 @@
 
 .features__text {
   text-align: center;
+  line-height: 29.ppx;
   margin-bottom: 20px;
 }
 
