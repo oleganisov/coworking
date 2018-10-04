@@ -15,10 +15,6 @@ body {
   flex-direction: column;
 }
 
-/* .wrapper__content {
-  flex: 1;
-} */
-
 .container {
   margin: 0 auto;
   width: 1066px;

@@ -36,3 +36,9 @@
   font-size: 11px;
   color: black;
 }
+
+.title12__GothamPro {
+  font-family: "GothamPro";
+  font-size: 12px;
+  font-weight: 700;
+}
