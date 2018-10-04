@@ -43,10 +43,12 @@
 
 .features__text {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .details__item {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  text-align: start;
 }
 
 .details__item::before {
@@ -54,6 +56,6 @@
   content: "\2022";
   font-size: 20px;
   color: #cc3366;
-  margin-right: 15px;
+  margin-right: 30px;
   vertical-align: middle;
 }
