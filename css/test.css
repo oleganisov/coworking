@@ -1,0 +1,12 @@
+.test_item{
+display: inline-block;
+}
+.test_item::before{
+display: inline-block;
+content: "";
+width: 21px;
+height: 21px;
+vertical-align: middle;
+background-image: url('../../img/main-icon.png');
+background-repeat: no-repeat;
+}
