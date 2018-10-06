@@ -154,12 +154,56 @@
             </ul>
           </div>
         </div>
-        <div class="blockqoute">
-
-        </div>
       </main>
     </div>
+    <section class="blockqoute">
+      <div class="blockqoute__content">
+        Для наших новых клиентов мы предлагаем <b>скидку 50%</b> на первый день!
+        Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
+      </div>
+    </section>
+    <section class="form" id="feed-form">
+      <form action="post" class="form__elem">
+        <div class="form__fields">
+          <div class="form__title title-h2-black">Оставить отзыв</div>
+          <div class="form__row">
+            <label class="form__input">
+              <div class="form__input-title">Ваше имя</div>
+              <input type="text" class="form__input-text" placeholder="Андрей">
+            </label>
+            <label class="form__input">
+              <div class="form__input-title">Ссылка на профиль VK</div>
+              <input type="text" class="form__input-text" placeholder="vk.com/example">
+            </label>
+          </div>
+          <div class="form__row">
+            <label class="form__textarea-label">
+              <div class="form__input-title">Текст отзыва</div>
+              <textarea class="form__input-text form__textarea" placeholder="Мне понравилось"></textarea>
+            </label>
+          </div>
+          <div class="form__row">
+            <div class="form__left">
+              <div class="form__input-title">Отображать фото в отзыве?</div>
+              <label class="form__radio">
+                <input type="radio" class="form__radio-elem" name="review" checked>
+                <div class="form__radio-fake"></div>
+                <div class="form__radio-text">Да</div>
+              </label>
+              <label class="form__radio">
+                <input type="radio" class="form__radio-elem" name="review">
+                <div class="form__radio-fake"></div>
+                <div class="form__radio-text">Нет</div>
+            </div>
+            <div class="form__right">
+              <button formaction="#feed-form" class="form__submit title12-GothamPro">Отправить</button>
+            </div>
+            </label>
+          </div>
+        </div>
+      </form>
 
+    </section>
   </div>
 
   <!--footer-->
