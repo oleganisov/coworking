@@ -1,12 +1,13 @@
 .blockqoute{
   width: 100%;
   min-height: 175px;
-  background-image: url('../../img/pattern.png');
-  background-position: center;
-  background-repeat: no-repeat;
+  background: #27273e;
   overflow: hidden;
   display: flex;
   justify-content: center;
+  background-image: url('../../img/pattern.png');
+  background-position: center;
+  background-repeat: no-repeat;
   margin-bottom: 57px;
   }
 .blockqoute__content{
