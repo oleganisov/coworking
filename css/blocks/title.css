@@ -1,40 +1,43 @@
-.title-h2-black {
+.title-h2 {
   font-family: "GothamPro";
   font-weight: 700;
   font-style: normal;
   font-size: 49px;
-  color: black;
 }
 
-.title-h4-white {
+.title-h3 {
+  font-family: "GothamPro";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.title-h4 {
   font-family: "GothamPro";
   font-weight: 700;
   font-style: normal;
   font-size: 21px;
-  color: #fff;
 }
 
-.title-h6-white {
+.title-h6 {
   font-family: "GothamPro";
   font-weight: 700;
   font-style: normal;
   font-size: 14px;
-  color: #fff;
 }
 
-.title__h5-black {
+.title-h5 {
   font-family: "Roboto";
   font-size: 18px;
   font-weight: bold;
   font-style: normal;
 }
 
-.title-h7-black {
+.title-h7 {
   font-family: "GothamPro";
   font-weight: 700;
   font-style: normal;
   font-size: 11px;
-  color: black;
 }
 
 .title12-GothamPro {

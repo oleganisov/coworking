@@ -31,3 +31,6 @@
 .social__item:hover{
   background-color: #ec1e79;
 }
+.social__title{
+  color:#fff;
+}
