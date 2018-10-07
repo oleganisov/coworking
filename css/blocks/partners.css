@@ -1,11 +1,25 @@
-.partners__title{
+.partners{
+  margin-bottom: 93px;
+}
+.partners__title {
   margin-bottom: 52px;
 }
-.partners__list{
+
+.partners__list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: space-between;
 }
-.partners__item{
+
+.partners__item {
   width: 30%;
+  margin-bottom: 52px;
+}
+
+.partners__pic {
+  filter: grayscale(100%);
+}
+
+.partners__pic:hover {
+  filter: grayscale(0%);
 }
