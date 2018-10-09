@@ -19,6 +19,10 @@
   margin-right: 22px;
 }
 .loft-link{
-  color: #fff;
+  font-weight: 700;
   text-decoration: underline;
+}
+.social__title{
+  font-weight: 700;
+  font-size: 14px;  
 }
