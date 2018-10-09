@@ -1,21 +1,38 @@
 @font-face {
-	font-family: "GothamPro";
-	src: url("../../fonts/GothamPro-Bold.woff")  format("woff");
-	font-weight: 700;
+  font-family: "GothamPro";
+  src: url("../../fonts/GothamPro-Bold.woff") format("woff");
+  font-weight: 700;
   font-style: normal;
-} 
+}
+
 @font-face {
   font-family: "GothamPro";
   src: url("../../fonts/GothamPro-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
+
 @font-face {
-	font-family: "GothamPro";
-	src:url("../../fonts/GothamPro-LightItalic.woff") format("woff");
-	font-weight: 300;
-	font-style: italic;
+  font-family: "GothamPro";
+  src: url("../../fonts/GothamPro-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
 }
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../../fonts/GothamPro-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../../fonts/GothamPro-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
 @font-face {
   font-family: "Roboto";
   src: url("../../fonts/Roboto-Bold.woff") format("woff");
@@ -23,6 +40,7 @@
   font-weight: bold;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Roboto";
   src: url("../../fonts/Roboto-Regular.woff") format("woff");
@@ -35,18 +53,5 @@
   font-family: "Roboto";
   src: url("../../fonts/Roboto-Light.woff") format("woff");
   font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "GothamPro";
-  src: url("../../fonts/GothamPro-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-}
-@font-face {
-  font-family: "GothamPro";
-  src: url("../../fonts/GothamPro-Black.woff") format("woff");
-  font-weight: 900;
   font-style: normal;
 }
