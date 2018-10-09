@@ -1,0 +1,32 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1113px;
+  height: 742px;
+  background-image: url('../../img/intro.png');
+  background-color: rgba(236, 30, 121, 0.15);
+  background-blend-mode: overlay;
+}
+.intro__logo{
+  margin-bottom: 29px;
+}
+
+.intro__entry{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 182px;
+  height: 44px;
+  overflow: hidden;
+  text-transform: uppercase;
+  border: 3px solid #ec1e79;
+  color: #ec1e79;
+  border-radius: 3px;
+}
+
+.intro__entry:hover{
+  background-color: #ec1e79;
+  color:#fff;
+}
