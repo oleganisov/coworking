@@ -46,10 +46,7 @@
 
 .news__date {
   margin-bottom: 10px;
-  font-family: "Roboto";
   font-size: 14px;
-  font-weight: 300;
-  font-style: normal;
 }
 
 .news__header {
@@ -58,5 +55,4 @@
 
 .news__text {
   line-height: 28px;
-  font-size: 18px;
 }

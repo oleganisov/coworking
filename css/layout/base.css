@@ -4,7 +4,10 @@ body {
 }
 
 body {
-  font-family: Roboto, Helvetica, sans-serif;
+  font-family: GothamPro, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
