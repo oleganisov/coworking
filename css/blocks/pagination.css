@@ -6,9 +6,6 @@
 .pagination__label {
   display: inline-block;
   margin-right: 20px;
-  font-family: "Roboto";
-  font-weight: normal;
-  font-style: normal;
   font-size: 14px;
   color: #000;
 }
@@ -29,13 +26,29 @@
   border-radius: 3px;
   display: inline-block;
   text-decoration: none;
-  font-family: "Roboto";
   color: #000;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
-  
 }
-.pagination__link:hover{
+
+.pagination__link-prev,
+.pagination__link-next {
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  color: #000;
+}
+
+.pagination__link:hover {
+  color: #cc3366;
+}
+
+.pagination__link-active {
   background-color: #27273e;
   color: #fff;
+}
+
+.pagination__link-disabled {
+  cursor: default;
+  color: #ccc;
 }

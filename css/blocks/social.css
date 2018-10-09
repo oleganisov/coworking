@@ -14,10 +14,9 @@
   height: 20px;
   width: 20px;
   line-height: 20px;
-  margin-left: 0;
+  margin-right: 6px;
   background-color: #fff;
   border-radius: 50%;
-  text-align: center;
   position: relative;
 }
 
