@@ -58,6 +58,7 @@
 
 .form__textarea {
   resize: none;
+  font-size: 14px;
 }
 
 .form__radio {
