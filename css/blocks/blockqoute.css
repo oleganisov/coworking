@@ -13,13 +13,11 @@
 .blockqoute__content{
   width: 611px;
   min-height: 77px;
-  font-family: GothamPro;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 18px;
   color:#fff;
   align-self: center;
+  line-height: 30px;
 }
-b {
+
+.blockqoute__content b {
   color:#ec1e79;
 }

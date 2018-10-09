@@ -2,6 +2,10 @@
   margin-bottom: 73px;
 }
 
+.price__title {
+  margin-bottom: 43px;
+}
+
 .price__list {
   display: flex;
   flex-wrap: wrap;
@@ -22,8 +26,11 @@
   position: relative;
   margin-bottom: 26px;
 }
-.price__title {
-  margin-bottom: 43px;
+
+.price__rate {
+  font-weight: 700;
+  line-height: 21px;
+  margin-bottom: 20px;
 }
 
 .price__text{
@@ -45,6 +52,7 @@
   line-height: 34px;
   padding-left: 20px;
   padding-right: 20px;
+  transition: opacity .3s;
 }
 
 .price__txt {
@@ -55,9 +63,7 @@
   color: #ec1e79;
 }
 
-.price__overlay:hover,
-.price__overlay:hover .price__txt,
-.price__overlay:hover .price__vip {
-  background: transparent;
-  color: transparent;
+.price__overlay:hover
+{
+  opacity: 0;
 }
