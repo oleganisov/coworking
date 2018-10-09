@@ -22,7 +22,7 @@ body {
 
 .container {
   margin: 0 auto;
-  width: 1066px;
+  width: 1061px;
   display: flex;
   justify-content: space-between;
 }

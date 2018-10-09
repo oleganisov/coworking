@@ -21,8 +21,7 @@
 }
 
 .price__pic {
-  width: 250px;
-  height: 153px;
+  overflow: hidden;
   position: relative;
   margin-bottom: 26px;
 }
@@ -33,7 +32,7 @@
   margin-bottom: 20px;
 }
 
-.price__text{
+.price__text {
   line-height: 21px;
   font-size: 15px;
 }
@@ -52,9 +51,7 @@
   opacity: 0.85;
   text-transform: uppercase;
   line-height: 34px;
-  padding-left: 20px;
-  padding-right: 20px;
-  transition: opacity .3s;
+  transition: opacity .4s;
 }
 
 .price__txt {
@@ -65,7 +62,6 @@
   color: #ec1e79;
 }
 
-.price__overlay:hover
-{
+.price__overlay:hover {
   opacity: 0;
 }
