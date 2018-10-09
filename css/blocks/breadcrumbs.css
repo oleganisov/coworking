@@ -11,9 +11,7 @@
   display: none;
 }
 .breadcrumbs__link{
-  font-family: "GothamPro";
   font-size: 14px;
-  font-weight: 300;
   font-style: italic;
   color:rgba(236, 30, 121, 0.8);
 }
