@@ -8,11 +8,11 @@
 .partners__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .partners__item {
-  width: 30%;
+  align-self: baseline;
+  margin-right: 150px;
   margin-bottom: 52px;
 }
 

@@ -1,5 +1,5 @@
 .price {
-  margin-bottom: 73px;
+  margin-bottom: 25px;
 }
 
 .price__title {
@@ -9,7 +9,6 @@
 .price__list {
   display: flex;
   flex-wrap: wrap;
-  align-content: space-between;
 }
 
 .price__item {
