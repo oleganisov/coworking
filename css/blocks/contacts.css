@@ -2,11 +2,6 @@
   margin-bottom: 6px;
 }
 
-.contacts__timing {
-  text-align: right;
-  text-decoration: underline;
-}
-
 .contacts__link {
   color: #fff;
   font-weight: 700;
@@ -15,7 +10,10 @@
 }
 
 .contacts__timing {
+  /* display: inline-block; */
   position: relative;
+  margin-right: 0;
+  text-decoration: underline;
 }
 
 .timing__elem {
@@ -31,7 +29,19 @@
   font-size: 14px;
   line-height: 18px;
   text-transform: lowercase;
-  display: none;
+  right:-9999px;
+  margin-top: 11px;
+  opacity: 0;
+  transition: .3s;
+}
+.timing__elem::before{
+  content:"";
+  position: absolute;
+  display: block;
+  left:0;
+  right: 0;
+  height: 15px;
+  top:-15px;
 }
 
 .timing__item {
@@ -52,5 +62,6 @@
   color: rgba(93, 209, 248, 0.7);
 }
 .contacts__timing:hover .timing__elem{
-  display: block;
+  right:0;
+  opacity: 1;
 }
