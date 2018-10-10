@@ -10,7 +10,7 @@
 }
 
 .contacts__timing {
-  /* display: inline-block; */
+  display: inline-block;
   position: relative;
   text-align: right;
   text-decoration: underline;
@@ -23,17 +23,16 @@
   height: 81px;
   padding: 9px;
   background: #fff;
-  border: 1px solid #ccc;
+  box-shadow: 0 0 4px 1px #cfd6e2;
   border-radius: 3px;
-  font-weight: 700;
   font-size: 14px;
   line-height: 18px;
   text-transform: lowercase;
-  display: none;
   right: 0;
   margin-top: 11px;
+  right: -9999px;
   opacity: 0;
-  transition: .3s;
+  transition: opacity .6s;
 }
 
 .timing__elem::before {
@@ -46,11 +45,16 @@
   top: -15px;
 }
 
+.timing__list {
+  padding-top: 11px;
+}
+
 .timing__item {
   text-align: start;
 }
 
 .timing__item--colored {
+  font-weight: 700;
   color: #ec1e79;
 }
 
@@ -65,6 +69,6 @@
 }
 
 .contacts__timing:hover .timing__elem {
-  display: block;
   opacity: 1;
+  right: 0;
 }
