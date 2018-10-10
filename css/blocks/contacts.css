@@ -45,6 +45,18 @@
   top: -15px;
 }
 
+.timing__elem::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  display: block;
+  border: 10px solid transparent;
+  border-bottom-color: #fff;
+  right: 0;
+  top: -19px;
+}
+
 .timing__list {
   padding-top: 11px;
 }
