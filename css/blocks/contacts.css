@@ -5,22 +5,52 @@
 .contacts__timing {
   text-align: right;
   text-decoration: underline;
+}
 
- }
-.contacts__link{
-  color:#fff;
+.contacts__link {
+  color: #fff;
   font-weight: 700;
   font-size: 21px;
   font-style: normal;
 }
-.contacts__timing-link{
+
+.contacts__timing {
+  position: relative;
+}
+
+.timing__elem {
+  position: absolute;
+  top: 100%;
+  width: 163px;
+  height: 81px;
+  padding: 9px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: lowercase;
+  display: none;
+}
+
+.timing__item {
+  text-align: start;
+}
+
+.timing__item--colored {
+  color: #ec1e79;
+}
+
+.contacts__timing-link {
   font-weight: 700;
   font-size: 14px;
   color: rgba(236, 30, 121, 0.7);
 }
-.work-time{
-  color:#ec1e79;
+
+.contacts__timing:hover .contacts__timing-link{
+  color: rgba(93, 209, 248, 0.7);
 }
-.contacts__timing-link:hover{
-  color:rgba(93, 209, 248, 0.7);
+.contacts__timing:hover .timing__elem{
+  display: block;
 }
