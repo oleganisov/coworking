@@ -1,20 +1,30 @@
-.breadcrumbs{
+.breadcrumbs {
   margin-bottom: 28px;
 }
-.breadcrumbs__item{
+
+.breadcrumbs__item {
   display: inline-block;
+  text-decoration: underline;
 }
-.breadcrumbs__item::before{
+
+.breadcrumbs__item:last-child {
+  text-decoration: none;
+}
+
+.breadcrumbs__item::before {
   content: "/";
 }
-.breadcrumbs__item:first-child::before{
+
+.breadcrumbs__item:first-child::before {
   display: none;
 }
-.breadcrumbs__link{
+
+.breadcrumbs__link {
   font-size: 14px;
   font-style: italic;
-  color:rgba(236, 30, 121, 0.8);
+  color: rgba(236, 30, 121, 0.8);
 }
-.breadcrumbs__link--active{
- color: #000;
+
+.breadcrumbs__link--active {
+  color: #000;
 }
