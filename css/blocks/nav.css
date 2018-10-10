@@ -32,7 +32,7 @@
 .menu__link--main:hover::before,
 .menu__link--active.menu__link--main::before
 {
-  background: url('../../img/sprites.png') -47px -10px;
+  background-position: -47px -10px;
 }
 
 .menu__link--feed::before {
@@ -47,7 +47,7 @@
 
 .menu__link--feed:hover::before,
 .menu__link--active.menu__link--feed::before {
-  background: url('../../img/sprites.png') -202px -10px;
+  background-position: -202px -10px;
 }
 
 .menu__link--price::before {
@@ -62,7 +62,7 @@
 
 .menu__link--price:hover::before,
 .menu__link--active.menu__link--price::before {
-  background: url('../../img/sprites.png') -123px -10px;
+  background-position: -123px -10px;
 }
 
 .menu__link:hover, .menu__link--active
