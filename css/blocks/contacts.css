@@ -29,7 +29,8 @@
   font-size: 14px;
   line-height: 18px;
   text-transform: lowercase;
-  right: -9999px;
+  display: none;
+  right: 0;
   margin-top: 11px;
   opacity: 0;
   transition: .3s;
@@ -64,6 +65,6 @@
 }
 
 .contacts__timing:hover .timing__elem {
-  right: 0;
+  display: block;
   opacity: 1;
 }
