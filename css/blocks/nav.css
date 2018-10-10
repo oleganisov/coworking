@@ -26,14 +26,13 @@
   width: 21px;
   height: 21px;
   margin-right: 17px;
-  background-image: url('../../img/main-icon.png');
-  background-repeat: no-repeat;
+  background: url('../../img/sprites.png') -10px -10px;
 }
 
 .menu__link--main:hover::before,
 .menu__link--active.menu__link--main::before
 {
-  background-image: url('../../img/main-icon-active.png');
+  background: url('../../img/sprites.png') -47px -10px;
 }
 
 .menu__link--feed::before {
@@ -43,13 +42,12 @@
   width: 21px;
   height: 21px;
   margin-right: 17px;
-  background-image: url('../../img/feed-icon.png');
-  background-repeat: no-repeat;
+  background: url('../../img/sprites.png') -162px -10px;
 }
 
 .menu__link--feed:hover::before,
 .menu__link--active.menu__link--feed::before {
-  background-image: url('../../img/feed-icon-active.png');
+  background: url('../../img/sprites.png') -202px -10px;
 }
 
 .menu__link--price::before {
@@ -59,13 +57,12 @@
   width: 21px;
   height: 21px;
   margin-right: 17px;
-  background-image: url('../../img/wallet-icon.png');
-  background-repeat: no-repeat;
+  background: url('../../img/sprites.png') -84px -10px;
 }
 
 .menu__link--price:hover::before,
 .menu__link--active.menu__link--price::before {
-  background-image: url('../../img/wallet-icon-active.png');
+  background: url('../../img/sprites.png') -123px -10px;
 }
 
 .menu__link:hover, .menu__link--active

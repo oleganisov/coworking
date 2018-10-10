@@ -12,7 +12,7 @@
 .contacts__timing {
   /* display: inline-block; */
   position: relative;
-  margin-right: 0;
+  text-align: right;
   text-decoration: underline;
 }
 
@@ -29,19 +29,20 @@
   font-size: 14px;
   line-height: 18px;
   text-transform: lowercase;
-  right:-9999px;
+  right: -9999px;
   margin-top: 11px;
   opacity: 0;
   transition: .3s;
 }
-.timing__elem::before{
-  content:"";
+
+.timing__elem::before {
+  content: "";
   position: absolute;
   display: block;
-  left:0;
+  left: 0;
   right: 0;
   height: 15px;
-  top:-15px;
+  top: -15px;
 }
 
 .timing__item {
@@ -58,10 +59,11 @@
   color: rgba(236, 30, 121, 0.7);
 }
 
-.contacts__timing:hover .contacts__timing-link{
+.contacts__timing:hover .contacts__timing-link {
   color: rgba(93, 209, 248, 0.7);
 }
-.contacts__timing:hover .timing__elem{
-  right:0;
+
+.contacts__timing:hover .timing__elem {
+  right: 0;
   opacity: 1;
 }
