@@ -1,22 +1,20 @@
 @keyframes logo-animation {
-  /* 0% {
-    top: 0;
-    transform: rotate(-15deg);
-  } */
+  0% {
+   /* opacity: 1;*/
+    transform: rotate(0deg); 
+  }
   25% {
-opacity: 0.3;
+    /* opacity: 1; */
     /* transform: rotate(-15deg); */
   }
   50% {
     /* transform: rotate(-5deg); */
-    opacity: 0.6;
   }
   75% {
     /* transform: rotate(3deg); */
-    opacity: 0.9;
   }
   100% {
-    /* transform: rotate(0deg); */
-    opacity: 1;
+    transform: rotate(360deg);
+    /* opacity: 1; */
   }
 }

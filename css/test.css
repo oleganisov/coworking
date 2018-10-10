@@ -10,8 +10,29 @@
   background-blend-mode: overlay;
 }
 .intro__logo{
-opacity: 0;
-  /* animation-name: logo-animation 2s; */
+  opacity: 1;
+  animation: logo-animation 2s cubic-bezier(0,1.51,.66,.79);
+}
+@keyframes logo-animation {
+   0% {
+   /* opacity: 0; */
+  }
+  25% {
+    transform: rotate(-15deg);
+    /* opacity: 1; */
+  }
+  /* 50% {
+    transform: rotate(-5deg);
+    opacity: 1;
+  } */
+  75% {
+    transform: rotate(-5deg);
+    /* opacity: 1; */
+  }
+  100% {
+    transform: rotate(0deg);
+    /* opacity: 1; */
+  }
 }
 .logo{
   text-align: center;
