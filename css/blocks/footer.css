@@ -2,12 +2,11 @@
   width: 100%;
   min-height: 77px;
   background-color: #27273e;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .footer__left {
   margin-top: 14px;
-  margin-left: 19px;
 }
 
 .footer__center {
@@ -16,7 +15,6 @@
 
 .footer__right {
   margin-top: 14px;
-  margin-right: 22px;
 }
 .loft-link{
   font-weight: 700;

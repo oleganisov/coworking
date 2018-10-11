@@ -9,13 +9,8 @@
   background-color: rgba(236, 30, 121, 0.15);
   background-blend-mode: overlay;
 }
+
 .intro__logo{
-  /* animation: logo-animation 2s cubic-bezier(0,1.14,1,-0.1); */
-  /* animation-timing-function: ease */
-  /* opacity:0; */
-  /* timing-function delay iteration-count direction fill-mode; */
-}
-.logo{
   text-align: center;
   margin-bottom: 29px;
 }
