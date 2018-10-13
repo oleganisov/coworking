@@ -1,37 +1,72 @@
+.social__title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+}
+
 .social__elem {
   display: inline-block;
   height: 35px;
+  margin-left: 10px;
 }
 
 .social__list {
+  display: flex;
   margin-top: 9px;
   padding: 0;
 }
 
 .social__item {
-  display: inline-block;
   opacity: 0.75;
-  height: 20px;
-  width: 20px;
-  line-height: 20px;
-  margin-right: 6px;
-  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
-  position: relative;
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  margin-right: 6px;
 }
 
-.social__icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.social__link {
+  display: inline-block;
+  text-indent: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  background: url('../../img/social_sprite.png');
+  background-repeat: no-repeat;
 }
 
-.social__item:hover{
+.social__link--vk {
+  width: 12px;
+  height: 7px;
+  background-position: -41px -39px;
+}
+
+.social__link--fb {
+  width: 6px;
+  height: 13px;
+  background-position: -77px -10px;
+}
+
+.social__link--g {
+  width: 15px;
+  height: 9px;
+  background-position: -10px -10px;
+}
+
+.social__link--t {
+  width: 11px;
+  height: 9px;
+  background-position: -10px -39px;
+}
+
+.social__link--m {
+  width: 12px;
+  height: 9px;
+  background-position: -45px -10px;
+}
+
+.social__item:hover {
   background-color: #ec1e79;
-}
-.social__title{
-  color:#fff;
-  font-weight: 700;
-  font-size: 14px;  
 }
