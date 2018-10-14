@@ -32,12 +32,12 @@
 .price__rate {
   font-weight: 700;
   line-height: 21px;
-  margin-bottom: 20px;
+  margin-bottom: 9px;
 }
 
 .price__text {
   line-height: 21px;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .price__overlay {
