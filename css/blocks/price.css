@@ -1,5 +1,5 @@
 .price {
-  margin-bottom: 25px;
+  margin-bottom: 71px;
 }
 
 .price__title {
@@ -17,6 +17,9 @@
   flex: 1;
   margin-right: 55px;
   margin-bottom: 48px;
+}
+.price__item:nth-child(n+4) {
+  margin-bottom: 0;
 }
 
 .price__pic {
@@ -56,6 +59,10 @@
 
 .price__txt {
   color: #5dd1f8;
+}
+
+.price__img{
+  height: 100%;
 }
 
 .price__vip {
